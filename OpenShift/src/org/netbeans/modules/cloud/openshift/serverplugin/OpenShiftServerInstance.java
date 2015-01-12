@@ -40,7 +40,7 @@ public class OpenShiftServerInstance {
         return OpenShiftCloudInstance.TYPE;
     }
     public String getId() {
-        return createURL("OpenShift:", OpenShiftInstance.getUserName(), "BBB");
+        return createURL("openshift:", OpenShiftInstance.getUserName(), "BBB");
     }
     public static String createURL(String cloudInstance, String identityDomain, String javaServiceName) {
         return cloudInstance + "." + identityDomain + "." + javaServiceName;

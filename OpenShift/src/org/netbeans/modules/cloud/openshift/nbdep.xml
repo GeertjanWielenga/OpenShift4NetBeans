@@ -2,7 +2,7 @@
     <!--
         URL for the disconnected deployment manager
     -->
-    <disconnected-string>OpenShift:000</disconnected-string>
+    <disconnected-string>openshift:000</disconnected-string>
 
     <!--
         Web module's context root xpath
