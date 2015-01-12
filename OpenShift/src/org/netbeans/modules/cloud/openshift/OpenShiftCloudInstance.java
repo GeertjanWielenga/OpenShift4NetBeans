@@ -40,7 +40,7 @@ import org.openide.windows.OutputListener;
 import org.openide.windows.OutputWriter;
 public class OpenShiftCloudInstance {
     @StaticResource
-    public static final String ICON = "org/netbeans/modules/cloud/OpenShift/resources/icon.png";
+    public static final String ICON = "org/netbeans/modules/cloud/openshift/resources/icon.png";
     public static final String TYPE = "OpenShift by Red Hat";
     private static IUser user = null;
     public static String userName = null;
